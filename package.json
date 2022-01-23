@@ -4,7 +4,8 @@
     "description": "Twitter bot tweeting Opensea sales for a given collection",
     "main": "app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npx node app.js"
     },
     "author": "Daniel Griffin (http://github.com/dsgriffin)",
     "license": "ISC",
@@ -13,7 +14,8 @@
     },
     "homepage": "http://github.com/dsgriffin/opensea-sales-twitter-bot",
     "dependencies": {
-        "axios": "^0.21.1",
+        "axios": "^0.21.4",
+        "dotenv": "^14.2.0",
         "ethers": "^5.3.1",
         "lodash": "^4.17.21",
         "moment": "^2.29.1",
