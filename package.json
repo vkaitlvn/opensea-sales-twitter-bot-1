@@ -4,8 +4,7 @@
     "description": "Twitter bot tweeting Opensea sales for a given collection",
     "main": "app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "npx node app.js"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Daniel Griffin (http://github.com/dsgriffin)",
     "license": "ISC",
