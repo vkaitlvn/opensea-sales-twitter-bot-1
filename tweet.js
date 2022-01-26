@@ -32,7 +32,10 @@ async function tweetWithImage(tweetText, imageUrl) {
     // Format our image to base64
     const processedImage = await getBase64(imageUrl);
 
+    // console.log(`Attempting to tweet: ${tweetText}`);
+
     // Upload the item's image from OpenSea to Twitter & retrieve a reference to it
+    // comment out if running locally
     twitterClient.post('media/upload', { media_data: processedImage }, (error, media, response) => {
         if (!error) {
             const tweet = {
